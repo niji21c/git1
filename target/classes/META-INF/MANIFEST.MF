@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: lettuce
+Implementation-Version: 0.0.8-SNAPSHOT
+Built-By: dhkim
+Implementation-Vendor-Id: com.test
+Build-Jdk: 1.8.0_144
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/lettuce
+Created-By: Maven Integration for Eclipse
+
