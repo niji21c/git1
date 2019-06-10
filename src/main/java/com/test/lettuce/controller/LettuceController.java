@@ -70,6 +70,7 @@ public class LettuceController {
     
     @GetMapping("/get")
     public Object get() {
+		System.out.println("b3");
     		String id = createId();
         return redisTemplate.opsForValue().get(id);
     }
