@@ -48,6 +48,7 @@ public class LettuceController {
 
     @GetMapping("/save")
     public String save(){
+    		System.out.println("aaa");
     		System.out.println("b1");
     		System.out.println("100");
         String randomId = createId();
