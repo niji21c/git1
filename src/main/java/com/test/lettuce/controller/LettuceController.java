@@ -42,6 +42,7 @@ public class LettuceController {
 
 	@GetMapping("/")
     public String ok () {
+		System.out.println("1.0.0");
         return "ok";
     }
 
