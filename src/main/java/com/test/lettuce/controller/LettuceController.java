@@ -42,12 +42,18 @@ public class LettuceController {
 
 	@GetMapping("/")
     public String ok () {
+		System.out.println("1.0.0");
         return "ok";
     }
 
     @GetMapping("/save")
     public String save(){
+<<<<<<< HEAD
     		System.out.println("aaa");
+=======
+    		System.out.println("b1");
+    		System.out.println("100");
+>>>>>>> refs/remotes/origin/1.0.0
         String randomId = createId();
         LocalDateTime now = LocalDateTime.now();
 
@@ -69,6 +75,7 @@ public class LettuceController {
     
     @GetMapping("/get")
     public Object get() {
+		System.out.println("b3");
     		String id = createId();
         return redisTemplate.opsForValue().get(id);
     }
