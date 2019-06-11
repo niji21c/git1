@@ -48,6 +48,7 @@ public class LettuceController {
 
     @GetMapping("/save")
     public String save(){
+    		System.out.println("1.0.0_b_1");
         String randomId = createId();
         LocalDateTime now = LocalDateTime.now();
 
