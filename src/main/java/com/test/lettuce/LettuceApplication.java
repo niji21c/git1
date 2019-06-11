@@ -9,6 +9,7 @@ public class LettuceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(LettuceApplication.class, args);
 		System.out.println("100");
+		System.out.println("master");
 	}
 
 }
