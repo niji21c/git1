@@ -10,6 +10,7 @@ public class LettuceApplication {
 		SpringApplication.run(LettuceApplication.class, args);
 		System.out.println("100");
 		System.out.println("master");
+		System.out.println("100_b_1");
 	}
 
 }
